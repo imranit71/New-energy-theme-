@@ -8,4 +8,45 @@ body {
   font-weight: 2rem;
   color: #333; }
 
+.navbar-brand {
+  font-weight: 600; }
+
+.section-area .spacer {
+  padding-top: 55px; }
+  .section-area .spacer h1 {
+    font-weight: 900; }
+
+.social-icon a {
+  font-size: 20px; }
+
+.about-section img {
+  width: 850px;
+  height: 450px;
+  background-image: cover;
+  background-repeat: no-repeat; }
+.about-section .about-head {
+  width: 90%; }
+.about-section h1 {
+  text-align: center;
+  font-weight: bold; }
+.about-section a {
+  padding: 10px 25px 10px 25px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px; }
+  .about-section a:hover {
+    text-decoration: none; }
+.about-section p {
+  text-align: justify; }
+
+.contact-area .contact-img {
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 10px; }
+  .contact-area .contact-img .contact-body {
+    z-index: 9; }
+
 /*# sourceMappingURL=style.css.map */

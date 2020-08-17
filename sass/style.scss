@@ -10,4 +10,71 @@ body{
     color: #333;
     
 }
+// nav section
+.navbar-brand{
+    font-weight: 600;
+}
+// Section Area
+.section-area{
+    .spacer{
+        padding-top: 55px;
+        h1{
+            font-weight: 900;
+        }
+    }
+}
 
+.social-icon{
+    a{
+        font-size: 20px;
+    }
+}
+
+// About us Section
+.about-section {
+    img{
+        width: 850px;
+        height: 450px;
+        background-image: cover;
+        background-repeat: no-repeat;
+        
+    }
+   .about-head{
+       width: 90%;
+   }
+    h1{
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    a {
+        padding: 10px 25px 10px 25px;
+        background:#333;
+        color:#fff;
+        text-decoration: none;
+        border-radius: 3px;
+    &:hover{
+        text-decoration: none; 
+    }
+    }
+    p{
+        text-align:justify;
+    }
+}
+
+//contact area
+.contact-area{
+    
+    .contact-img{
+        background-image: url(../img/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        border-radius: 10px;
+        
+      
+     .contact-body{
+          z-index: 9;
+      }  
+    }
+}
