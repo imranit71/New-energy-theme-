@@ -46,7 +46,28 @@ body {
   background-size: cover;
   padding: 50px;
   border-radius: 10px; }
+  .contact-area .contact-img .shadow {
+    border: 2px solid palegreen;
+    border-radius: 8px;
+    padding: 10px; }
   .contact-area .contact-img .contact-body {
     z-index: 9; }
+
+.footer {
+  background: #E1F6FB;
+  font-family: 'Roboto', sans-serif; }
+  .footer h1 {
+    font-weight: 700; }
+  .footer .social-icon {
+    margin-top: -5px; }
+    .footer .social-icon a {
+      font-size: 25px; }
+  .footer .image {
+    background-image: url(../img/mid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 500px;
+    height: 300px;
+    margin-top: -125px; }
 
 /*# sourceMappingURL=style.css.map */

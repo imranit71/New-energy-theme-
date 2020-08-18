@@ -71,10 +71,38 @@ body{
         background-size: cover;
         padding: 50px;
         border-radius: 10px;
-        
+    .shadow{
+        border:2px solid palegreen;
+         border-radius: 8px;
+         padding: 10px;
+    }    
       
      .contact-body{
           z-index: 9;
       }  
+    }
+}
+//Footer
+.footer{
+    background:#E1F6FB;
+    font-family: 'Roboto', sans-serif;
+    h1{
+        font-weight: 700;
+    }
+   
+    .social-icon {
+        margin-top: -5px;
+        a{
+            font-size: 25px;
+        }
+    }
+    .image{
+        background-image: url(../img/mid.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-width: 500px;
+        height: 300px;
+        margin-top:-125px;
+        
     }
 }
